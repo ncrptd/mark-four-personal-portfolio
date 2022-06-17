@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #ff0077;
+  --secondary-color: #313131;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* container */
+.container {
+  padding: 0 1rem;
+}
+.container-center {
+  margin: auto;
+  max-width: 600px;
+}
+
+/* links */
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  border: 3px solid var(--secondary-color);
+  color: #313131;
+  font-weight: bold;
+}
+.link-secondary {
+  border: 3px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  font-weight: 500;
+  color: #fff;
+}
+
+/* lists */
+.list-non-bullet {
+  text-decoration: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0.5rem;
+}
+
+/* nav */
+.navigation {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+}
+.navigation .nav-brand {
+  padding-top: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.navigation .nav-brand span {
+  padding: 2px;
+}
+.navigation .nav-pills {
+  text-align: right;
+  padding-bottom: 10px;
+  margin-left: 90px;
+}
+.navigation .link {
+  color: var(--primary-color);
+}
+.navigation .link:hover {
+  color: #fff;
+}
+/* header */
+.intro {
+  padding: 20px;
+  text-align: center;
+}
+.intro .intro-img {
+  border-radius: 50%;
+  width: 5rem;
+}
+
+/* section */
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+.ow {
+  background-color: #ebebeb;
+}
+
+/* footer */
+.footer {
+  background-color: #151515;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+.footer .link {
+  color: var(--primary-color);
+}
+.footer ul {
+  padding-inline-start: 0;
+}
