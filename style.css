@@ -4,9 +4,15 @@
   --primary-color: #ff0077;
   --secondary-color: #313131;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
 body {
   font-family: "Poppins", sans-serif;
+
+  box-sizing: border-box;
 }
 
 /* container */
@@ -20,6 +26,7 @@ body {
 
 /* links */
 .link {
+  box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
@@ -35,7 +42,32 @@ body {
   font-weight: 500;
   color: #fff;
 }
-
+/* button */
+.btn {
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  border: 2px solid gray;
+  color: #fff;
+  margin-top: 5rem;
+}
+.btn:hover {
+  border: 2px solid var(--primary-color);
+}
+.btn .fa-solid {
+  padding-left: 10px;
+}
+/* socials */
+.socials {
+  margin-top: 3rem;
+}
+.fa {
+  display: inline-block;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
 /* lists */
 .list-non-bullet {
   text-decoration: none;
@@ -50,15 +82,12 @@ body {
 .navigation {
   background-color: #000;
   color: #fff;
-  display: inline-block;
-  border-radius: 5px;
 }
 .navigation .nav-brand {
   padding-top: 10px;
   color: #fff;
   font-size: 25px;
   font-weight: bold;
-  margin-left: 10px;
 }
 .navigation .nav-brand span {
   padding: 2px;
@@ -66,7 +95,7 @@ body {
 .navigation .nav-pills {
   text-align: right;
   padding-bottom: 10px;
-  margin-left: 90px;
+  margin-left: 8rem;
 }
 .navigation .link {
   color: var(--primary-color);
@@ -74,30 +103,35 @@ body {
 .navigation .link:hover {
   color: #fff;
 }
-/* header */
+/* intro section */
 .intro {
-  padding: 20px;
   text-align: center;
-}
-.intro .intro-img {
-  border-radius: 50%;
-  width: 5rem;
-}
-
-/* section */
-.section {
-  padding: 2rem;
+  background: url(/images/intro-bg.jpg) no-repeat;
   text-align: center;
+  /* padding: 10px; */
+  height: 100vh;
 }
-.ow {
-  background-color: #ebebeb;
+.intro h5 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  padding-top: 2rem;
+}
+.intro h1 {
+  font-size: 6.5rem;
+  color: #fff;
+  padding: 5px;
+}
+.intro p {
+  color: #fff;
+  font-size: 1.5rem;
+  opacity: 0.9;
 }
 
 /* footer */
 .footer {
   background-color: #151515;
   text-align: center;
-  padding: 2rem;
+  padding: 4rem 1rem;
   color: #fff;
 }
 .footer .link {
