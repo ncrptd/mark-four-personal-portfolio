@@ -13,6 +13,7 @@ body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* container */
@@ -28,7 +29,7 @@ body {
 .link {
   box-sizing: border-box;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 3.5rem;
   display: inline-block;
 }
 .link-primary {
@@ -114,7 +115,7 @@ body {
 .footer {
   background-color: #151515;
   text-align: center;
-  padding: 4rem 1rem;
+  padding: 2rem 0;
   color: #fff;
   position: sticky;
   top: 100%;
@@ -130,10 +131,13 @@ body {
   font-size: 2rem;
 }
 
+/* home page  */
+
 /* intro section */
 
 .intro {
   background: url(/images/intro-bg.jpg) no-repeat;
+  /* background-color: #2C3E50; */
   text-align: center;
   height: 100vh;
 }
@@ -194,3 +198,5 @@ body {
   font-size: 4rem;
   padding: 1rem;
 }
+
+/* projects */
