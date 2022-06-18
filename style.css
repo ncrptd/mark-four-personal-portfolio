@@ -17,6 +17,7 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-color: #fffcff;
 }
 .padding-md {
   padding: 2rem 0 5rem 0;
@@ -96,7 +97,7 @@ body {
 
 /* nav */
 .navigation {
-  background: #000;
+  background: #000000;
   color: #fff;
 }
 .navigation .nav-brand {
@@ -154,7 +155,7 @@ body {
 /* intro section */
 
 .intro {
-  background: url(/images/intro-bg.jpg);
+  background: #000000;
   text-align: center;
   height: 100vh;
 }
