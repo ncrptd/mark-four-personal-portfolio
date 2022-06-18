@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #ff0077;
-  --secondary-color: #313131;
+  --secondary-color: #131417;
 }
 * {
   margin: 0;
@@ -17,7 +17,8 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: #fffcff;
+  background-color: #131417;
+  color: #fff;
 }
 .padding-md {
   padding: 2rem 0 5rem 0;
@@ -57,14 +58,14 @@ body {
   color: var(--primary-color);
 }
 .link-primary {
-  border: 3px solid var(--secondary-color);
+  border: 3px solid #fff;
   background-color: var(--secondary-color);
   font-weight: 500;
   color: #fff;
 }
 .link-secondary {
-  border: 3px solid var(--secondary-color);
-  color: #313131;
+  border: 3px solid #fff;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -97,7 +98,7 @@ body {
 
 /* nav */
 .navigation {
-  background: #000000;
+  background: #131417;
   color: #fff;
 }
 .navigation .nav-brand {
@@ -126,13 +127,10 @@ body {
   margin: 2rem;
   padding: 3rem 0;
 }
-.ow {
-  background-color: #ebebeb;
-  border-radius: 10px;
-}
+
 /* footer */
 .footer {
-  background-color: #151515;
+  background: #131417;
   text-align: center;
   padding: 2rem 0;
   color: #fff;
@@ -155,14 +153,14 @@ body {
 /* intro section */
 
 .intro {
-  background: #000000;
+  background: #131417;
   text-align: center;
   height: 100vh;
 }
 .intro h5 {
   font-size: 2rem;
   color: var(--primary-color);
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 .intro h1 {
   font-size: 5.5rem;
@@ -232,6 +230,9 @@ body {
 
 .projects .link:hover {
   color: var(--primary-color);
+}
+.projects .link {
+  border: 2px solid #eeedee;
 }
 /* blogs */
 .blogs {
