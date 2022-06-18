@@ -11,7 +11,7 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
-
+  min-height: 100vh;
   box-sizing: border-box;
 }
 
@@ -29,33 +29,35 @@ body {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  display: inline-block;
 }
-
 .link-primary {
-  border: 3px solid var(--secondary-color);
-  color: #313131;
-  font-weight: bold;
-}
-.link-secondary {
   border: 3px solid var(--secondary-color);
   background-color: var(--secondary-color);
   font-weight: 500;
   color: #fff;
 }
+.link-secondary {
+  border: 3px solid var(--secondary-color);
+  color: #313131;
+  font-weight: bold;
+}
+
 /* button */
 .btn {
   display: inline-block;
-  padding: 1rem;
+  padding: 1rem 2rem;
   text-decoration: none;
   border: 2px solid gray;
   color: #fff;
   margin-top: 5rem;
+  font-size: large;
 }
 .btn:hover {
   border: 2px solid var(--primary-color);
 }
 .btn .fa-solid {
-  padding-left: 10px;
+  padding-left: 2rem;
 }
 /* socials */
 .socials {
@@ -65,7 +67,7 @@ body {
   display: inline-block;
   color: #fff;
   font-size: 2rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
   margin-top: 2rem;
 }
 /* lists */
@@ -89,8 +91,9 @@ body {
   font-size: 25px;
   font-weight: bold;
 }
-.navigation .nav-brand span {
-  padding: 2px;
+.navigation .nav-brand p {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 .navigation .nav-pills {
   text-align: right;
@@ -103,12 +106,35 @@ body {
 .navigation .link:hover {
   color: #fff;
 }
-/* intro section */
-.intro {
+/* section */
+.ow {
+  background-color: #ebebeb;
+}
+/* footer */
+.footer {
+  background-color: #151515;
   text-align: center;
+  padding: 4rem 1rem;
+  color: #fff;
+  position: sticky;
+  top: 100%;
+}
+.footer .footer-header {
+  padding-bottom: 1rem;
+}
+.footer .link {
+  color: var(--primary-color);
+  padding: 1rem 2rem;
+}
+.footer .fa-brands {
+  font-size: 2rem;
+}
+
+/* intro section */
+
+.intro {
   background: url(/images/intro-bg.jpg) no-repeat;
   text-align: center;
-  /* padding: 10px; */
   height: 100vh;
 }
 .intro h5 {
@@ -117,26 +143,54 @@ body {
   padding-top: 2rem;
 }
 .intro h1 {
-  font-size: 6.5rem;
+  font-size: 5.5rem;
   color: #fff;
   padding: 5px;
 }
 .intro p {
-  color: #fff;
-  font-size: 1.5rem;
-  opacity: 0.9;
+  font-family: "lora-regular", serif;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #ffffff;
+  text-shadow: 0 0 6px rgb(0 0 0 / 20%);
 }
-
-/* footer */
-.footer {
-  background-color: #151515;
+/* about section */
+.about {
   text-align: center;
-  padding: 4rem 1rem;
-  color: #fff;
+  height: 100vh;
 }
-.footer .link {
+/* .about h1 {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+.about h3 {
+  padding-top: 3rem;
+  text-transform: uppercase;
   color: var(--primary-color);
+  font-weight: 300;
+} */
+.about .tech-heading {
+  padding: 2rem;
+  color: var(--primary-color);
+  font-size: 2rem;
 }
-.footer ul {
-  padding-inline-start: 0;
+.about .projects-heading {
+  color: var(--primary-color);
+  padding: 2rem;
+}
+.about .blogs-heading {
+  color: var(--primary-color);
+  padding: 2rem;
+}
+.about p {
+  padding-bottom: 1rem;
+}
+.about img {
+  width: 5rem;
+}
+.about i {
+  font-size: 4rem;
+  padding: 1rem;
 }
