@@ -128,7 +128,6 @@ body {
   margin: 2rem;
   padding: 3rem 0;
 }
-
 /* footer */
 .footer {
   background: #131417;
@@ -185,7 +184,7 @@ body {
   display: inline-block;
   color: #fff;
   font-size: 2rem;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   margin-top: 2rem;
 }
 .intro .fa:hover {
@@ -194,22 +193,29 @@ body {
 /* about section */
 .about {
   text-align: center;
+}
+.about .intro-section {
   height: 100vh;
+  padding: 5rem;
 }
 .about .projects-showcase {
-  padding-top: 2rem;
+  margin-top: 1rem;
 }
-.about .blogs-showcase {
-  padding-top: 2rem;
+.about i {
+  padding: 1rem;
+  font-size: 4rem;
 }
 .about .tech-heading {
   padding: 2rem;
   color: var(--primary-color);
   font-size: 2rem;
 }
-.about .projects-heading {
+.projects-heading {
   color: var(--primary-color);
-  padding-bottom: 1rem;
+  padding: 1rem;
+}
+.blogs-showcase {
+  padding-top: 1rem;
 }
 .about .blogs-heading {
   color: var(--primary-color);
@@ -219,10 +225,10 @@ body {
   padding-bottom: 1rem;
 }
 
-.about i {
+/* .about i {
   font-size: 4rem;
   padding: 1rem;
-}
+} */
 
 /* projects */
 .projects {
