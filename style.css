@@ -127,7 +127,11 @@ body {
   margin: 2rem;
   padding: 3rem 0;
 }
-
+.ow {
+  padding: 2rem 3rem;
+  background: #1c1c1c;
+  border-radius: 10px;
+}
 /* footer */
 .footer {
   background: #131417;
@@ -195,7 +199,9 @@ body {
   text-align: center;
   height: 100vh;
 }
-
+.about .projects-showcase {
+  padding: 2.5rem;
+}
 .about .tech-heading {
   padding: 2rem;
   color: var(--primary-color);
@@ -203,18 +209,16 @@ body {
 }
 .about .projects-heading {
   color: var(--primary-color);
-  padding: 2rem;
+  padding-bottom: 1rem;
 }
 .about .blogs-heading {
   color: var(--primary-color);
-  padding: 2rem;
+  padding-bottom: 1rem;
 }
 .about p {
   padding-bottom: 1rem;
 }
-.about img {
-  width: 5rem;
-}
+
 .about i {
   font-size: 4rem;
   padding: 1rem;
