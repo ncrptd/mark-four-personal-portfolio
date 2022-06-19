@@ -51,8 +51,9 @@ body {
 .link {
   box-sizing: border-box;
   text-decoration: none;
-  padding: 0.5rem 3.5rem;
+  padding: 1rem 3.5rem;
   display: inline-block;
+  margin: 0.5rem;
 }
 .link:hover {
   color: var(--primary-color);
@@ -66,7 +67,7 @@ body {
 .link-secondary {
   border: 3px solid #fff;
   color: #fff;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* button */
@@ -127,11 +128,7 @@ body {
   margin: 2rem;
   padding: 3rem 0;
 }
-.ow {
-  padding: 2rem 3rem;
-  background: #1c1c1c;
-  border-radius: 10px;
-}
+
 /* footer */
 .footer {
   background: #131417;
@@ -200,7 +197,10 @@ body {
   height: 100vh;
 }
 .about .projects-showcase {
-  padding: 2.5rem;
+  padding-top: 2rem;
+}
+.about .blogs-showcase {
+  padding-top: 2rem;
 }
 .about .tech-heading {
   padding: 2rem;
