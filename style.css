@@ -69,6 +69,15 @@ body {
   color: #fff;
   font-weight: 500;
 }
+.blog-btn {
+  border-radius: 10px;
+  background-color: #ff0077;
+  color: white;
+}
+.blog-btn:hover {
+  background-color: #fff;
+  color: #ff0077;
+}
 
 /* button */
 .btn {
