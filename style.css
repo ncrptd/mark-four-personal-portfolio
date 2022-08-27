@@ -95,6 +95,9 @@ body {
 .btn .fa-solid {
   padding-left: 2rem;
 }
+.fa-brands:hover {
+  color: white;
+}
 
 /* lists */
 .list-non-bullet {
