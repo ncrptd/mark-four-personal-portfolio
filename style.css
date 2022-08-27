@@ -8,8 +8,8 @@
   margin: 0;
   padding: 0;
 }
-a:-webkit-any-link {
-  text-decoration: none !important;
+a {
+  text-decoration: none;
 }
 html,
 body {
