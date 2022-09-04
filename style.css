@@ -160,8 +160,6 @@ body {
   font-size: 2rem;
 }
 
-/* home page  */
-
 /* intro section */
 
 .intro {
@@ -226,9 +224,7 @@ body {
   color: var(--primary-color);
   padding: 1rem;
 }
-.blogs-showcase {
-  padding-top: 1rem;
-}
+
 .about .blogs-heading {
   color: var(--primary-color);
   padding-bottom: 1rem;
@@ -259,4 +255,7 @@ body {
 /* blogs */
 .blogs {
   text-align: center;
+}
+.blogs h2 {
+  margin-bottom: 1rem;
 }
