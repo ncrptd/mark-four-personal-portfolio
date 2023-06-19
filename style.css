@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
   --primary-color: #ff0077;
@@ -13,7 +13,7 @@ a {
 }
 html,
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   min-height: 100vh;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -49,11 +49,11 @@ body {
 }
 /* links */
 .link {
-  box-sizing: border-box;
   text-decoration: none;
   padding: 1rem 3.5rem;
-  display: inline-block;
-  margin-top: 1.5rem;
+  display: block;
+  margin: 5px auto;
+  width: 40%;
 }
 .link:hover {
   color: var(--primary-color);
@@ -73,6 +73,7 @@ body {
   border-radius: 10px;
   background-color: #ff0077;
   color: white;
+  margin-top: 10px;
 }
 .blog-btn:hover {
   background-color: #fff;
@@ -102,17 +103,16 @@ body {
 /* lists */
 .list-non-bullet {
   text-decoration: none;
-}
-
-.list-item-inline {
-  display: inline;
-  padding: 0.5rem;
+  list-style: none;
 }
 
 /* nav */
 .navigation {
   background: #131417;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(33, 31, 31);
 }
 .navigation .nav-brand {
   padding-top: 10px;
@@ -123,11 +123,15 @@ body {
 .navigation .nav-brand p {
   letter-spacing: 0.2rem;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navigation .nav-pills {
-  text-align: right;
-  padding-bottom: 10px;
-  margin-left: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .navigation .link {
   color: var(--primary-color);
@@ -137,21 +141,19 @@ body {
 }
 /* section */
 .section {
-  margin: 2rem;
   padding: 3rem 0;
 }
 /* footer */
 .footer {
   background: #131417;
   text-align: center;
-  padding: 1.5rem 0;
   color: #fff;
-  position: sticky;
-  top: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.footer .footer-header {
-  padding-bottom: 1rem;
-}
+
 .footer .link {
   color: var(--primary-color);
   padding: 1rem 2rem;
@@ -165,7 +167,6 @@ body {
 .intro {
   background: #131417;
   text-align: center;
-  height: 100vh;
 }
 .intro h5 {
   font-size: 2rem;
@@ -178,7 +179,7 @@ body {
   padding: 5px;
 }
 .intro p {
-  font-family: "lora-regular", serif;
+  font-family: 'lora-regular', serif;
   font-size: 1.7rem;
   line-height: 2.4rem;
   text-transform: uppercase;
@@ -203,13 +204,14 @@ body {
 /* about section */
 .about {
   text-align: center;
+  padding: 5rem 0;
 }
 .about .intro-section {
   height: 100vh;
   padding: 5rem;
 }
 .about .projects-showcase {
-  margin-top: 1rem;
+  margin: 1.5rem 0;
 }
 .about i {
   padding: 1rem;
